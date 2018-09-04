@@ -9,5 +9,8 @@ var date = function date(){
 			}
 		}
 		return index;
+	}
+	this.closestTo = function(dateToCompare, datesArray){
+		return datesArray[this.closestToIndex(dateToCompare, datesArray)];
 	}	
 }
