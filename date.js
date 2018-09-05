@@ -12,5 +12,14 @@ var date = function date(){
 	}
 	this.closestTo = function(dateToCompare, datesArray){
 		return datesArray[this.closestToIndex(dateToCompare, datesArray)];
-	}	
+	}
+	this.compareAsc = function(date1, date2){
+		if(date1-date2 < 0){
+			return -1;
+		}
+		else if(date1-date2 > 0){
+			return 1;
+		}
+		return 0;
+	}
 }
