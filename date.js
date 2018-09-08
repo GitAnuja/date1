@@ -22,4 +22,7 @@ var date = function date(){
 		}
 		return 0;
 	}
+	this.compareDesc = function(date1, date2){
+		return this.compareAsc(date2, date1);
+	}
 }

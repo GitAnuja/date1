@@ -7,3 +7,7 @@ console.log("compareAsc:");
 console.log(d.compareAsc(new Date(2015, 0, 1), new Date(2016, 0, 1)));
 console.log(d.compareAsc(new Date(2016, 0, 1), new Date(2015, 0, 1)));
 console.log(d.compareAsc(new Date(2016, 0, 1), new Date(2016, 0, 1)));
+console.log("compareDesc:");
+console.log(d.compareDesc(new Date(2015, 0, 1), new Date(2016, 0, 1)));
+console.log(d.compareDesc(new Date(2016, 0, 1), new Date(2015, 0, 1)));
+console.log(d.compareDesc(new Date(2016, 0, 1), new Date(2016, 0, 1)));
