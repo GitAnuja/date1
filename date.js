@@ -25,5 +25,5 @@ var date = function date(){
 	this.compareDesc = function(date1, date2){
 		return this.compareAsc(date2, date1);
 	}
-	console.log("git hook12")
+	console.log("git hook123")
 }
