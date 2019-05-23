@@ -25,5 +25,5 @@ var date = function date(){
 	this.compareDesc = function(date1, date2){
 		return this.compareAsc(date2, date1);
 	}
-	console.log("1234567890123456789012345678901234567890")
+	console.log("12345678901234567890123456789012345678901")
 }
